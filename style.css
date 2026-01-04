@@ -1,0 +1,15 @@
+*{
+    margin: 5px;
+    padding: 10px;
+}h1{
+    color: blue;
+    text-align: center;
+}
+.gg{
+    border: 4px solid blue;
+    border-radius: 5px;
+    box-sizing: content-box;
+    box-shadow: 10px 10px 10px;
+    background-color: antiquewhite;
+
+}
