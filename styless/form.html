@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic of form</title>
+<style>
+   .basicinfo label{
+    display: block;
+   }
+   form .sub input{
+    cursor: pointer;
+    color: red;
+   }
+   button{
+    cursor: pointer;
+   }
+   fieldset{
+    background-color: rgb(255, 246, 235);
+    border-radius: 5px;
+   }
+</style>
+</head>
+<body>
+    <form action="">
+        <fieldset class="basicinfo">
+            <legend>Basic information</legend>
+        <label for="name">Your Name</label>
+        <input type="text" name="" id="name" placeholder="Username">
+
+        <label for="email">Your email</label>
+        <input type="email" name="" id="email" placeholder="Email">
+
+        <label for="password">Your password</label>
+        <input type="password" name="" id="password" placeholder="Password">
+        </fieldset>
+       
+
+        <fieldset class="sub">
+            <legend>Your favorite subject</legend>
+            <input type="radio" name="name" id="math">
+            <label for="math">Math</label><br>
+            <input type="radio" name="name" id="english">
+            <label for="english">English</label><br>
+            <input type="radio" name="name" id="Bangla">
+            <label for="Bangla">Bangla</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Favorite Movie</legend>
+            <input type="checkbox" name="name" id="3idiots">
+            <label for="3idiots">3 idiots</label><br>
+            <input type="checkbox" name="name" id="yourname">
+            <label for="yourname">Your Name</label><br>
+            <input type="checkbox" name="name" id="karwaan">
+            <label for="karwaan">Karwaan</label>
+        </fieldset><br>
+
+        <button type="submit">Submit</button>
+        <button type="reset" style="margin-left: 5px;">Clear all</button>
+
+
+        
+    </form>
+   
+</body>
+</html>

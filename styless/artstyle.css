@@ -1,0 +1,20 @@
+*{
+    text-align: center;
+}nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#cc{
+    text-align: center;
+}
+nav li:hover{
+    background-color: rgb(255, 53, 53);
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 4px;
+}
+h1{
+    text-align: center;
+}
